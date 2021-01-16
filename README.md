@@ -17,3 +17,9 @@ This is Css practice for [What the Flexbox Course](http://flexbox.io/) by Wes Bo
 ## 04- Pricing-Grid
 
 ![alt text](./04-Pricing-Grid/screen04.gif)
+
+| No.        | Title       | Demo Link                                      | GitHub Link |
+| ---------- | ----------- | ---------------------------------------------- | ----------- |
+| #01        | JS Drum Kit | ![alt text](./03-Nesting-Flexbox/screen03.gif) |
+| [GitHub]() |
+| #01        | JS Drum Kit | [Demo]()                                       | [GitHub]()  |
