@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">
+                In this Demo you will go through some projects which built
+                to practice what i learned from
+                <a href="http://flexbox.io/" target="_blank"
+                  >What the Flexbox Course</a
+                >
+                by
+                <a href="https://github.com/wesbos" target="_blank">Wes Bos</a><div class=""></div>
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">&copy;Mohammed Saif</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href="https://github.com/MoSaif00"
+                    class="text-white"
+                    target="_blank"
+                    ><i class="fab fa-github main-logo"></i>My GitHub</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/mosaif00/"
+                    class="text-white"
+                    target="_blank"
+                    ><i class="fab fa-linkedin main-logo"></i>My Linkedin</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <i class="fas fa-laptop-code main-logo"></i>
+            <strong>Flexbox</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light text-white">What A Flexbox</h1>
+            <p class="lead text-muted">
+              This is a Flexbox projects' practice with
+              <a href="http://flexbox.io/" target="_blank"
+                >What A Flexbox Course</a
+              >
+              by
+              <a href="https://github.com/wesbos" target="_blank">Wes Bos</a>.
+            </p>
+
+            <div class="d-flex repository-link justify-content-center">
+              <a
+                href="https://github.com/MoSaif00/Flexbox-course"
+                target="_blank"
+              >
+                <button
+                  type="button"
+                  class="d-flex btn btn-outline-secondary text-uppercase"
+                >
+                  <i class="fab fa-github pt-1"></i> Repository Link
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col-md-6 col-sm-10 col-lg-4 col-xl-3">
+              <div class="card shadow-sm">
+                <div class="image-container">
+                  <img
+                    src="./01-Flexbox-Nav/screen01.gif"
+                    class="card-img-top image-gif"
+                    alt="..."
+                  />
+                  <div class="middle">
+                    <a href="./01-Flexbox-Nav/index.html" target="_blank">
+                      <div class="text">
+                        <i class="fas fa-link main-logo"></i>Demo
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title text-center">FlexBox-Nav</h5>
+                  <small class="text-muted">#01</small>
+
+                  <hr />
+                 
+                  <div
+                    class="d-flex justify-content-center align-items-center"
+                  >
+                    <div class="btn-group">
+                      <a
+                        href="./01-Flexbox-Nav/index.html"
+                        class="first-button"
+                        target="_blank"
+                      >
+                        <button
+                          type="button"
+                          class="d-flex btn text-white text-uppercase"
+                        >
+                          <i class="fas fa-laptop pt-1"></i> Demo
+                        </button>
+                      </a>
+                      <a
+                        href=""
+                        class="last-button"
+                        target="_blank"
+                      >
+                        <button
+                          type="button"
+                          class="d-flex btn btn-outline-secondary text-uppercase"
+                        >
+                          <i class="fab fa-github pt-1"></i> GitHub
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-10 col-lg-4 col-xl-3">
+                <div class="card shadow-sm">
+                  <div class="image-container">
+                    <img
+                      src="./02-Mobile-Reordering/screen02.gif"
+                      class="card-img-top image-gif"
+                      alt="..."
+                    />
+                    <div class="middle">
+                      <a href="./02-Mobile-Reordering/index.html" target="_blank">
+                        <div class="text">
+                          <i class="fas fa-link main-logo"></i>Demo
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+  
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Mobile-Reordering </h5>
+                    <small class="text-muted">#02</small>
+  
+                    <hr />
+                   
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="./02-Mobile-Reordering/index.html"
+                          class="first-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn text-white text-uppercase"
+                          >
+                            <i class="fas fa-laptop pt-1"></i> Demo
+                          </button>
+                        </a>
+                        <a
+                          href=""
+                          class="last-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn btn-outline-secondary text-uppercase"
+                          >
+                            <i class="fab fa-github pt-1"></i> GitHub
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-10 col-lg-4 col-xl-3">
+                <div class="card shadow-sm">
+                  <div class="image-container">
+                    <img
+                      src="./03-Nesting-Flexbox/screen03.gif"
+                      class="card-img-top image-gif"
+                      alt="..."
+                    />
+                    <div class="middle">
+                      <a href="./03-Nesting-Flexbox/index.html" target="_blank">
+                        <div class="text">
+                          <i class="fas fa-link main-logo"></i>Demo
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+  
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Nesting-Flexbox </h5>
+                    <small class="text-muted">#03</small>
+  
+                    <hr />
+                   
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="./03-Nesting-Flexbox/index.html"
+                          class="first-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn text-white text-uppercase"
+                          >
+                            <i class="fas fa-laptop pt-1"></i> Demo
+                          </button>
+                        </a>
+                        <a
+                          href=""
+                          class="last-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn btn-outline-secondary text-uppercase"
+                          >
+                            <i class="fab fa-github pt-1"></i> GitHub
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-10 col-lg-4 col-xl-3">
+                <div class="card shadow-sm">
+                  <div class="image-container">
+                    <img
+                      src="./04-Pricing-Grid/screen04.gif"
+                      class="card-img-top image-gif"
+                      alt="..."
+                    />
+                    <div class="middle">
+                      <a href="./04-Pricing-Grid/index.html" target="_blank">
+                        <div class="text">
+                          <i class="fas fa-link main-logo"></i>Demo
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+  
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Pricing-Grid </h5>
+                    <small class="text-muted">#04</small>
+  
+                    <hr />
+                   
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="./04-Pricing-Grid/index.html"
+                          class="first-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn text-white text-uppercase"
+                          >
+                            <i class="fas fa-laptop pt-1"></i> Demo
+                          </button>
+                        </a>
+                        <a
+                          href=""
+                          class="last-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn btn-outline-secondary text-uppercase"
+                          >
+                            <i class="fab fa-github pt-1"></i> GitHub
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-10 col-lg-4 col-xl-3">
+                <div class="card shadow-sm">
+                  <div class="image-container">
+                    <img
+                      src="./05-Single-Line-Form/screen05.gif"
+                      class="card-img-top image-gif"
+                      alt="..."
+                    />
+                    <div class="middle">
+                      <a href="./05-Single-Line-Form/index.html" target="_blank">
+                        <div class="text">
+                          <i class="fas fa-link main-logo"></i>Demo
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+  
+                  <div class="card-body">
+                    <h5 class="card-title text-center"> Flexbox Single Line Form </h5>
+                    <small class="text-muted">#05</small>
+  
+                    <hr />
+                   
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="./05-Single-Line-Form/index.html"
+                          class="first-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn text-white text-uppercase"
+                          >
+                            <i class="fas fa-laptop pt-1"></i> Demo
+                          </button>
+                        </a>
+                        <a
+                          href=""
+                          class="last-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn btn-outline-secondary text-uppercase"
+                          >
+                            <i class="fab fa-github pt-1"></i> GitHub
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-10 col-lg-4 col-xl-3">
+                <div class="card shadow-sm">
+                  <div class="image-container">
+                    <img
+                      src="./06-Mobile-App-Layout/screen06.gif"
+                      class="card-img-top image-gif"
+                      alt="..."
+                    />
+                    <div class="middle">
+                      <a href="./06-Mobile-App-Layout/index.html" target="_blank">
+                        <div class="text">
+                          <i class="fas fa-link main-logo"></i>Demo
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+  
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Mobile App layout with Flexbox</h5>
+                    <small class="text-muted">#06</small>
+  
+                    <hr />
+                   
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="./06-Mobile-App-Layout/index.html"
+                          class="first-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn text-white text-uppercase"
+                          >
+                            <i class="fas fa-laptop pt-1"></i> Demo
+                          </button>
+                        </a>
+                        <a
+                          href=""
+                          class="last-button"
+                          target="_blank"
+                        >
+                          <button
+                            type="button"
+                            class="d-flex btn btn-outline-secondary text-uppercase"
+                          >
+                            <i class="fab fa-github pt-1"></i> GitHub
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
