@@ -31,7 +31,7 @@ a.button {
 }
 
 .app-wrap {
-  max-width: 540px;
+  max-width: 480px;
   height: 90vh;
   margin: 5vh auto 5vh auto;
   border: 10px solid rgba(0, 0, 0, 0.8);
@@ -87,4 +87,29 @@ a.button {
   background: #f0cb45;
   color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.app-wrap > * {
+  flex: 1 1 auto;
+}
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.icon-bar {
+  display: flex;
+}
+
+.icon-bar a {
+  flex: 1;
 }
